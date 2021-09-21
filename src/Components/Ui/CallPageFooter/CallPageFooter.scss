@@ -1,0 +1,38 @@
+.CPF {
+  display: flex;
+  border: 2px solid black;
+  background-color: white;
+  width: 700px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  border-radius: 15px 15px 0 0;
+  bottom: 0px;
+  left: 500px;
+  .Footer-item {
+    padding: 1rem;
+    .icon1 {
+      position: inherit;
+      margin-top: 10px;
+      width: 20px;
+      height: 20px;
+      &.red {
+        margin-top: 20px;
+      }
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      transform: scale(1.1);
+
+      .icon2-main {
+        margin-top: 100px;
+      }
+    }
+  }
+}
