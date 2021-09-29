@@ -2,15 +2,14 @@
   display: flex;
   border: 2px solid black;
   background-color: white;
-  width: 700px;
+  width: 400px;
   height: 90px;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: relative;
   z-index: 1;
   border-radius: 15px 15px 0 0;
   bottom: 0px;
-  left: 500px;
   .Footer-item {
     padding: 1rem;
     .icon1 {
